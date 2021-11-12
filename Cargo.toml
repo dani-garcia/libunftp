@@ -55,6 +55,8 @@ tracing-attributes = "0.1.20"
 uuid = { version = "1.0.0-alpha.1", features = ["v4"] }
 x509-parser = "0.13.2"
 
+downcast-rs = "1.2.0"
+
 [dev-dependencies]
 pretty_assertions = "1.2.1"
 tokio = { version = "1.17.0", features = ["macros", "rt-multi-thread"]}
